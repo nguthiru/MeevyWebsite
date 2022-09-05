@@ -1,0 +1,73 @@
+@import url('./main.css');
+
+body{
+    background: linear-gradient(to bottom right,#D8AAAA,#B9B5E3,#7BD1B5,#DBDC7E,#EAB791,#E5646A);
+}
+.row{
+    display: flex;
+}
+.sp-btn{
+    justify-content: space-between;
+}
+#home-logo{
+    width: 6em;
+    height: 2em;
+    
+}
+
+header{
+    padding: 1em ;
+    width: 100%;
+    height: 8vh;
+    position: sticky;
+    
+}
+header ul{
+    flex-grow: 1;
+    justify-content: center;
+
+}
+header a{
+    color: inherit;
+}
+
+header ul .nav-link{
+    padding:0 1em;
+    font-size: small;
+}
+section{
+    margin-top: 1em;
+    height: 92vh;
+
+}
+main{
+    padding: 0 2em;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#hero-image{
+    height: 70vh;
+}
+#hero h1+p{
+    margin: 1em 0;
+    line-height: 1.5;
+    font-size: 0.9em;
+}
+#hero h1{
+    text-transform: uppercase;
+}
+.align-center{
+    align-items: center;
+}
+.download-badge{
+    width: 10em;
+}
+#hero .download-badge{
+    margin: 0 0.5em;
+}
+.sub-text{
+    color: rgb(71, 71, 71);
+}
