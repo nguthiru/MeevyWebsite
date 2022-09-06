@@ -45,7 +45,7 @@ header ul .nav-link {
 section {
     scroll-snap-align: start;
   margin-top: 1em;
-  height: 92vh;
+  height: 95vh;
 }
 main {
   padding: 0 2em;
@@ -143,11 +143,12 @@ article {
   margin: 0.5em 0;
   line-height: 2;
 }
-#feature-discover {
+.feature-section {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .feature-icon {
   display: flex;
   align-items: center;
